@@ -1,3 +1,13 @@
+/*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -6,6 +16,10 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.img{
+  height: 150px;
 }
 h1,
 h2,
@@ -16,7 +30,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2e4049;
+  color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -24,7 +38,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #10171a;
+  color: #1a454f;
 }
 a:focus {
   text-decoration: none;
@@ -32,12 +46,8 @@ a:focus {
 p {
   line-height: 1.5;
 }
-
-.img {
-  height: 150px;
-}
 .wrapper {
-  background: #4B6A78;
+  background: #42A8C0;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -46,7 +56,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: #42A8C0;
   position: absolute;
   right: 0;
   width: 240px;
@@ -155,7 +165,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4049;
+  color: #2d7788;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -174,7 +184,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  background: #2d7788;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -193,11 +203,26 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
-  font-size: 16px;
+  color: #42A8C0;
+  font-size: 17px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 0px;
   font-weight: 500;
+}
+
+.article{
+  font-size: 13px;
+  color: #545E6C;
+}
+
+.article-title{
+  font-size: 15px;
+  margin-left: 35px;
+  color: #42A8C0;
+}
+.detail-projects{
+  margin-left: 45px;  
 }
 .main-wrapper .time {
   position: absolute;
@@ -207,6 +232,7 @@ p {
 }
 .main-wrapper .company {
   margin-bottom: 10px;
+  margin-left: 20px;
   color: #97AAC3;
 }
 .main-wrapper .project-title {
@@ -236,7 +262,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3;
+  background: #7bc2d3;
 }
 .footer {
   padding: 30px;
@@ -268,6 +294,7 @@ p {
     margin-bottom: 0;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -285,5 +312,3 @@ p {
     top: 1px;
   }
 }
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
